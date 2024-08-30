@@ -1,0 +1,64 @@
+:root {
+  --black: #311f09;
+  --orange: #ff8a00;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 20 px;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1237px;
+  margin: 0px auto;
+}
+
+/* Header */
+header {
+  margin-top: 51px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content__last {
+  display: flex;
+  align-items: center;
+}
+
+.header-content__last {
+  align-items: center;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 45px;
+  color: var (--black);
+}
+
+nav a:last-of-type {
+  margin-right: 0;
+}
+
+nav a.checked {
+  color: var(--orange);
+}
+
+.header-content__last img{
+margin-right: 25px;
+}
+
+.header-content__last a:nth-last-of-type {
+
+}
